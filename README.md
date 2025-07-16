@@ -8,6 +8,8 @@ The page includes:
 - Semantic HTML structure
 - Responsive design to adapt to different screen sizes
 
+Project Info: https://roadmap.sh/projects/single-page-cv
+
 ## Features
 
 - Clean and organized HTML layout

@@ -37,8 +37,29 @@ This is a long-term journey where I will be:
 - Use version control (Git) for every project
 - Document progress to reflect on improvements
 
+# How to Run Locally
+
+```bash
+
+    git clone https://github.com/Vedantha-V-V/roadmap-projects.git
+    cd roadmap-projects
+
+    # frontend
+    cd frontend
+
+
+```
+
+## Install Dependencies
+Make sure you have the appropriate environment set up (Node.js for frontend/JavaScript backend, Python for Python-based projects, etc.).
+
+## Prerequisites
+Node.js (v16+ recommended)
+npm or yarn
+Python 3.10+ (if applicable)
 
 
 ## Notes
 
-- This project is intended for educational purposes.
+- This repo is intended for educational purposes.
+- This repo is a personal learning log, but if you spot something that could be improved or have suggestions, feel free to open an issue or pull request!

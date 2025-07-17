@@ -20,12 +20,15 @@ This is a long-term journey where I will be:
 
 ## 🗂️ Repository Structure
 
+```bash
 .
 ├── frontend/       # HTML, CSS, JS, React, etc.
 │   └── single-page-cv/ # Project Info: https://roadmap.sh/projects/single-page-cv
 ├── backend/        # Node.js, APIs, databases, etc.
 ├── fullstack/      # Combined frontend + backend projects
 └── README.md
+
+```
 
 # Goals for This Journey
 

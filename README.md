@@ -17,8 +17,6 @@ This is a long-term journey where I will be:
 
 ## Projects
 
----
-
 **FrontEnd**
 
 single-page-cv: https://roadmap.sh/projects/single-page-cv <br>

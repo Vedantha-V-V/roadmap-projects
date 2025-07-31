@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="name" content="basic html website">
+    <meta name="description" content="Project to act as personal portfolio website">
     <title>Home</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=M+PLUS+Rounded+1c&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -11,33 +17,40 @@
             Vedantha
         </h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="articles.html">Articles</a>
-            <a href="contact.html">Contact</a>
+            <a class="nav-links" href="index.html">Home</a>
+            <a class="nav-links" href="projects.html">Projects</a>
+            <a class="nav-links" href="articles.html">Articles</a>
+            <a class="nav-links" href="contact.html">Contact</a>
         </nav>
     </header>
-    <section>
+    <section class="hero">
         <h1>Frontend Developer</h1>
-        <p>Website made purely by HTML</p>
+        <p>Personal Portfolio Website</p>
     </section>
-    <section>
-        <div>
+    <section class="main">
+        <div class="projects">
             <h2>Projects</h2>
             <ul>
-                <li>HTML Only Portfolio</li>
+                <li class="top">HTML Only Portfolio</li>
                 <li>Calculator</li>
                 <li>Quiz App</li>
                 <li>Countdown Timer</li>
                 <li>Product Upcoming Page</li>
             </ul>
         </div>
-        <div>
+        <div class="work-experience">
             <h1>Work Experience</h1>
-            <p>Solved all frontend projects</p>
-            <span>Vists my Profile</span>
+            <div class="experiences">
+                <h2>roadmap.sh</h2>
+                <p class="memo">Solved all frontend projects</p>
+                <span class="links">Vists my Profile</span>
+                <hr>
+                <h2>Open Source Work</h2>
+                <p class="memo">Contributes to 50 opensource projects. Made my own project with 200 Github Stars</p>
+                <span class="links">Vists my Github Profile</span>
+            </div>
         </div>
-        <div>
+        <div class="education">
             <h1>Education</h1>
             <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organised 30 sessions</p>
             <ul>
@@ -54,18 +67,20 @@
     </section>
     <section>
         <h1>Reviews from my Teachers</h1>
-        <p>
-            Vedantha was a brilliant student, always stood out with his assignments.
-            <p>Mr Brown.<br>-Assistant Professor</p>
-        </p>
-        <p>
-            Vedantha was a brilliant student, always stood out with his assignments.
-            <p>Mr Brown.<br>-Assistant Professor</p>
-        </p>
-        <p>
-            Vedantha was a brilliant student, always stood out with his assignments.
-            <p>Mr Brown.<br>-Assistant Professor</p>
-        </p>
+        <div class="testimonials">
+            <p>
+                Vedantha was a brilliant student, always stood out with his assignments.<br>
+                <span>Mr Brown -Assistant Professor</span>
+            </p>
+            <p>
+                Vedantha was a brilliant student, always stood out with his assignments.<br>
+                <span>Mr Brown -Assistant Professor</span>
+            </p>
+            <p>
+                Vedantha was a brilliant student, always stood out with his assignments.<br>
+                <span>Mr Brown -Assistant Professor</span>
+            </p>
+        </div>
     </section>
     <footer>
         @ all rights reserved 2025

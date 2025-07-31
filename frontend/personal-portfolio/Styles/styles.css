@@ -1,0 +1,234 @@
+.museomoderno {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x:hidden;
+}
+
+h1{
+    font-family:"MuseoModerno";
+}
+
+h2{
+    font-family:"MuseoModerno";
+    margin-left:20px;
+}
+
+/* Header */
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav{
+    padding:10px;
+}
+
+.nav-links{
+    text-decoration:none;
+    font-weight: bold;
+    color:black;
+    margin-right:15px;
+}
+
+/* Main Page */
+.hero{
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    flex-direction:column;
+    border-bottom-style: solid;
+    border-bottom:10px 100% black;
+    padding-bottom:50px;
+}
+
+.main{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    /* border-bottom-style:solid; */
+    border-width:2px;
+}
+
+.projects{
+    flex:1;
+    padding:20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-width:2px;
+}
+
+.projects > ul{
+    list-style-type:none;
+    padding:0;
+}
+
+.projects > ul > li{
+    width:100%;
+    text-decoration:none;
+    padding-bottom:20px;
+    border-top-style:solid;
+    text-align:center;
+    border-width:2px;
+    padding-top:20px;
+}
+
+.projects > ul >.top{
+    border-top-style:none;
+}
+
+.work-experience{
+    flex:1;
+    padding:20px;
+    padding-left:0;
+    padding-right:0;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-width:2px;
+}
+
+.links{
+    color:rgb(84, 182, 215);
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.memo{
+    margin-left:20px;
+}
+
+hr{
+    height:2px;
+    background-color:black;
+    width:99%;
+}
+
+.education{
+    flex:1;
+    padding:20px;
+    border-bottom-style:solid;
+    border-width:2px;
+}
+
+.testimonials{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+}
+
+.testimonials > p{
+    margin:15px;
+    padding:20px;
+    border-style:solid;
+    border-width:5px;
+    border-radius:20px;
+}
+
+.testimonials > p > span{
+    color:grey;
+}
+
+/* Contact Page */
+
+form{
+    display:flex;
+    flex-direction:column;
+    /*justify-content:center; */
+    /* align-items:center; */
+    width:75%;
+    padding:20px;
+    border-style:solid;
+    border-color:black;
+    border-radius:20px;
+    height:max-content;
+}
+
+.form-container{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:100%;
+}
+
+label{
+    margin-bottom:10px;
+    /* left:10px; */
+}
+
+input{
+    margin-bottom:10px;
+    width:100%;
+    height:30px;
+}
+
+#message{
+    height:70px;
+}
+
+#submit{
+    align-self: center;
+    border-radius:40px;
+    background-color: lightblue;
+    font-weight:bold;
+    font-family:"MuseoModerno", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:40px; 
+    padding:5px;
+
+}
+
+/* Footer */
+footer{
+    display:flex;
+    padding:20px;
+    align-items:center;
+    justify-content:center;
+}
+
+@media screen and (max-width: 550px) {
+    header{
+        flex-direction:column;
+    } 
+    
+    .main{
+        flex-direction:column;
+    }
+
+    .testimonials{
+        flex-direction:column;
+    }
+
+    .projects{
+        border-right-style: none;
+    }
+
+    .work-experience{
+        border-right-style: none;
+    }
+
+    .projects > ul > li{
+        background-color:lightgrey;
+    }
+
+    .projects > ul >.top{
+        border-top-style:solid;
+    }
+
+    .work-experience{
+        padding-bottom:0;
+    }
+
+    .experiences{
+        background-color: lightgray;
+        padding-bottom:20px;
+    }
+}

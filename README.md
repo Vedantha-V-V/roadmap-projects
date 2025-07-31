@@ -21,9 +21,9 @@ This is a long-term journey where I will be:
 
 **FrontEnd**
 
-single-page-cv: https://roadmap.sh/projects/single-page-cv
-basic-html-website: https://roadmap.sh/projects/basic-html-website
-personal-portfolio: https://roadmap.sh/projects/portfolio-website
+single-page-cv: https://roadmap.sh/projects/single-page-cv <br>
+basic-html-website: https://roadmap.sh/projects/basic-html-website <br>
+personal-portfolio: https://roadmap.sh/projects/portfolio-website <br>
 
 # Goals for This Journey
 

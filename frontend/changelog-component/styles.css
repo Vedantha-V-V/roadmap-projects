@@ -1,0 +1,62 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    font-family: Roboto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100%;
+    border-style:solid;
+    padding:20px;
+    border-radius:20px;
+}
+
+p{
+    color:rgb(135, 135, 135);
+    margin-bottom:20px;
+}
+
+.log-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+li::marker{
+    font-size:xx-large;
+}
+
+.dates{
+    color:rgb(135, 135, 135);
+}
+
+.dates > li::marker{
+    color:white;
+}
+
+hr{
+    margin-left:20px;
+    display:block;
+    position:relative;
+    right:371px;
+    width:1px;
+    background-color:black;
+    border-color:black;
+}
+
+.events > li::marker{
+    border-style:solid;
+}
+
+button{
+    margin-top:30px;
+    padding:10px;
+    background-color:black;
+    color:white;
+    border-radius:10px;
+}

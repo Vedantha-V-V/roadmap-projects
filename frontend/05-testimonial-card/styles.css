@@ -1,0 +1,141 @@
+body{
+    font-family:"M PLUS Rounded 1c";
+}
+
+.card-container-1{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:20px;
+    max-height:min-content;
+}
+
+.testimonial-1{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    margin:20px;
+}
+
+h2{
+    font-weight:lighter;
+    font-size:large;
+    margin-bottom:2px;
+}
+
+h4{
+    font-weight:lighter;
+    font-size:large;
+    margin-top:0;
+}
+
+.para-1{
+    background-color:black;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:0;
+}
+
+.triangle-down {
+    position:relative;
+    width: 0;
+    height: 0;
+    left:42px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+}
+
+.author{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    align-items:center;
+    margin-top:0;
+    padding-left: 20px;
+}
+
+img{
+    border-radius:50%;
+}
+
+.testimonial-2{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    margin:20px;
+    border-style:solid;
+    border-radius:20px;
+}
+
+.testimonial-2 .author{
+    margin-top:40px;
+}
+
+/* Card Section-2 */
+.card-container-2{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:20px;
+    max-height:400px;
+}
+
+.image-holder{
+    flex:1;
+    margin:10px;
+}
+
+.image-holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:40px;
+}
+
+.testimonial-3{
+    flex:2;
+    background-color:black;
+    color:white;
+    padding:30px;
+    border-radius:20px;
+    margin:10px;
+}
+
+.testimonial-3 h4{
+    margin-top:10px;
+    color:grey;
+}
+
+/* Card Section-3 */
+.card-container-3{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:50px;
+    border-style:solid;
+    border-radius:20px;
+    max-height:500px;
+}
+
+.image-holder-2{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+}
+
+.scroll{
+    font-size:large;
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+    margin:20px;
+}
+
+.blurr{
+    filter:blur(2px);
+}

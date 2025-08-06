@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=M+PLUS+Rounded+1c&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form>
+                <label for="name">Full Name</label>
+                <input id="name" type="text" placeholder="What should we call you?" aria-required="false">
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email" placeholder="john@doe.com" aria-required="true">
+                <label for="password">Enter Password</label>
+                <img class="password-eye" src="./assets/eye.svg" height="20px" width="20px">
+                <input id="password" name="password" type="password" placeholder="xxxxxxxx" aria-label="Password is Required" aria-required="true">
+                 <label for="confpassword">Confirm Password</label>
+                <input id="confpassword" name="confpassword" type="password" placeholder="xxxxxxxx">
+                <button>Update Profile</button>
+                
+                <img class="confirm-password-eye" src="./assets/eye.svg" height="20px" width="20px" aria-required="true">
+            </form>
+        </div>
+        <div class="progress-bar">
+            <div class="profile-completeness">
+                <div class="progress">
+                    65%
+                </div>
+                <h5>Profile Completeness</h5>
+            </div>
+            <div class="tasks">
+                <p class="striked">Create Account</p>
+                <p class="striked">Update Roadmap Progress</p>
+                <p class="striked">Setup Public Profile</p>
+                <p>Complete your first project</p>
+                <p>Invite your Friends</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

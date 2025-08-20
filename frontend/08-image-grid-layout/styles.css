@@ -1,0 +1,25 @@
+.container{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+img{
+    height:100%;
+    width:100%;
+    margin-right:20px;
+    object-fit: cover;
+}
+
+.image-container{
+    display:grid;
+    padding:10px;
+    object-fit:contain;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.section{
+    display:grid;
+    margin-left:15px;
+    gap:15px;
+}

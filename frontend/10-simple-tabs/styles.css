@@ -1,0 +1,41 @@
+body{
+    display:flex;
+    justify-content:center;
+    font-family:'MuseoModerno';
+}
+
+.content{
+    width:500px;
+}
+
+.active{
+    border-bottom-style:solid;
+}
+
+.navbar{
+    display:flex;
+    padding:10px 20px 0px 20px;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.navbar p{
+    cursor:pointer;
+}
+
+.tab{
+    display: none;
+}
+
+.tab-active{
+    display:flex;
+    padding:20px;
+    justify-content:center;
+    background-color:black;
+    /* text-align:center; */
+    align-items: center;
+    color:white;
+    border-radius:20px;
+    margin:10px;
+    height:200px;
+}

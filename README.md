@@ -28,6 +28,7 @@ datepicker-ui: https://roadmap.sh/projects/datepicker-ui <br>
 accessible-fom-ui: https://roadmap.sh/projects/accessible-form-ui <br>
 image-grid-layout: https://roadmap.sh/projects/image-grid <br>
 tool-tip-ui: https://roadmap.sh/projects/tooltip-ui <br>
+simple-tabs: https://roadmap.sh/projects/simple-tabs <br>
 
 # Goals for This Journey
 

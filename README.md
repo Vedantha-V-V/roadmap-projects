@@ -17,7 +17,7 @@ This is a long-term journey where I will be:
 
 ## Projects
 
-**FrontEnd**
+### FrontEnd
 
 single-page-cv: https://roadmap.sh/projects/single-page-cv <br>
 basic-html-website: https://roadmap.sh/projects/basic-html-website <br>
@@ -27,6 +27,7 @@ testimonial-cards: https://roadmap.sh/projects/testimonial-cards <br>
 datepicker-ui: https://roadmap.sh/projects/datepicker-ui <br>
 accessible-fom-ui: https://roadmap.sh/projects/accessible-form-ui <br>
 image-grid-layout: https://roadmap.sh/projects/image-grid <br>
+tool-tip-ui: https://roadmap.sh/projects/tooltip-ui <br>
 
 # Goals for This Journey
 

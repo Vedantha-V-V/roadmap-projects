@@ -1,0 +1,46 @@
+body{
+  font-family:"MuseoModerno";
+}
+
+span{
+  color:grey;
+}
+
+.navbar{
+  margin-top:25px;
+  display:flex;
+  flex-direction:row;
+  gap:10px;
+  justify-content: center;
+  align-items:center;
+  border-radius:10px;
+  border-style:solid;
+  padding:10px;
+}
+
+.hover-container {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+.hidden-block {
+  font-family:"M PLUS Rounded 1c";
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease, visibility 1s ease;
+  background-color: black;
+  color:white;
+  padding: 10px;
+  border-radius:10px;
+  white-space: nowrap;
+}
+
+.hover-container:hover .hidden-block {
+  opacity: 1;
+  visibility: visible;
+}

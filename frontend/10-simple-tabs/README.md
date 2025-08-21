@@ -1,4 +1,4 @@
-# Tabs
+# Simple Tabs
 ---
 
 ## Preview

@@ -10,6 +10,7 @@ body{
 
 .active{
     border-bottom-style:solid;
+    color:black;
 }
 
 .navbar{
@@ -19,8 +20,9 @@ body{
     justify-content:space-between;
 }
 
-.navbar p{
+p{
     cursor:pointer;
+    color:lightslategray;
 }
 
 .tab{

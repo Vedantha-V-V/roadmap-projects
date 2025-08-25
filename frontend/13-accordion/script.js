@@ -13,6 +13,9 @@ const arrow4 = document.querySelector('#arrow-4')
 const q5 = document.querySelector('#question-5')
 const tab5 = document.querySelector('#tab-5')
 const arrow5 = document.querySelector('#arrow-5')
+const q6 = document.querySelector('#question-6')
+const tab6 = document.querySelector('#tab-6')
+const arrow6 = document.querySelector('#arrow-6')
 
 
 q1.addEventListener('click',(e)=>{
@@ -62,5 +65,15 @@ q5.addEventListener('click',(e)=>{
     }else{
         tab5.className='active-tab'
         arrow5.className='rotated'
+    }
+})
+
+q6.addEventListener('click',(e)=>{
+    if(tab6.className == 'active-tab'){
+        tab6.className = 'tab'
+        arrow6.className=''
+    }else{
+        tab6.className='active-tab'
+        arrow6.className='rotated'
     }
 })

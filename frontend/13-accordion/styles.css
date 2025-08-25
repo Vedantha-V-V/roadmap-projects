@@ -1,0 +1,51 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    padding:10px;
+}
+
+.heading{
+    font-size:x-large;
+}
+
+.sub-heading{
+    font-size:large;
+}
+
+.questions{
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    gap:10px;
+    font-size:medium;
+}
+
+.question{
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+}
+
+.active-tab{
+    display:flex;
+    padding:10px;
+    border-style:solid;
+    border-radius:10px;
+    transition: all 0.5s ease;
+}
+
+.tab{
+    transition: all 0.5s ease;
+    display:none;
+}
+
+img{
+    transition: all 0.5s ease;
+}
+
+.rotated{
+    transition: all 0.5s ease;
+    transform: rotate(180deg);
+}

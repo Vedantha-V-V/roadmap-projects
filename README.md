@@ -31,6 +31,7 @@ tool-tip-ui: https://roadmap.sh/projects/tooltip-ui <br>
 simple-tabs: https://roadmap.sh/projects/simple-tabs <br>
 cookie-consent: https://roadmap.sh/projects/cookie-consent <br>
 restricted-textarea: https://roadmap.sh/projects/restricted-textarea <br>
+accordion: https://roadmap.sh/projects/accordion <br>
 
 # Goals for This Journey
 

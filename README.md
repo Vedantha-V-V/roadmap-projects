@@ -33,6 +33,7 @@ cookie-consent: https://roadmap.sh/projects/cookie-consent <br>
 restricted-textarea: https://roadmap.sh/projects/restricted-textarea <br>
 accordion: https://roadmap.sh/projects/accordion <br>
 age-calculator: https://roadmap.sh/projects/age-calculator <br>
+custom-dropdown: https://roadmap.sh/projects/custom-dropdown <br>
 
 # Goals for This Journey
 

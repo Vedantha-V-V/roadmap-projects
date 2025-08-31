@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Dropdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dropdown">
+        <div id="text-tab" class="text-tab">
+            <p id="toggle-text">Select an item</p><img id="arrow" src="arrowup.png" width="15px" height="20px">
+        </div>
+        <div id="options" class="inactive">
+            <span id="tab-1" class="tabs"><p>First Item</p></span>
+            <span id="tab-2" class="tabs"><p>Second Item</p></span>
+            <span id="tab-3" class="tabs"><p>Third Item</p></span>
+            <span id="tab-4" class="tabs"><p>Fourth Item</p></span>
+            <span id="tab-5" class="tabs"><p>Fifth Item</p></span>
+        </div>
+    </div>
+    <section class="active">
+        <p>Home</p>
+        <p>Feel free to use the dropdown to toggle between items</p>
+        <p>Explore a wide range of trivia related to programming languages</p>
+    </section>
+    <section id="section-1" class="inactive">
+        <p>Python</p>
+        <p>Everything Is an Object:
+            In Python, everything — even functions and classes — is an object.</p>
+        <p>Whitespace Matters (Literally):
+            Python uses indentation (whitespace) to define code blocks. Unlike most languages that use {} or begin/end, Python forces readable code.
+            Forgetting a space can crash your code!</p>
+    </section>
+    <section id="section-2" class="inactive">
+        <p>Java</p>
+        <p>Java is not an Acronym:
+            It was named after Java coffee, reflecting the creators' love for caffeine. Its original name was Oak.</p>
+        <p>Java introduced built-in garbage collection to mainstream programming. This means developers don’t manually free memory, which reduces memory leaks (but not entirely!).</p>
+    </section>
+    <section id="section-3" class="inactive">
+
+        <p>Rust</p>
+        <p>Rust guarantees memory safety through ownership and borrowing — without needing a garbage collector.This makes it super fast and safe — ideal for systems programming.</p>
+        <p>Rust's abstractions (like iterators) compile down to machine code with no runtime overhead.
+            You get high-level code with C-like performance.</p>
+    </section>
+    <section id="section-4" class="inactive">
+        <p>JavaScript</p>
+        <p>JavaScript was created in just 10 days by Brendan Eich in 1995 — originally called Mocha, then LiveScript, then JavaScript (confusingly).</p>
+        <p>JavaScript is single-threaded but uses event loops and callbacks (and now async/await) to handle concurrency.
+            .This is how Node.js handles many requests efficiently without threads.</p>
+    </section>
+    <section id="section-5" class="inactive">
+        <p>PHP</p>
+        <p>PHP Originally Stood for "Personal Home Page",It started as a simple tool to track Rasmus Lerdorf’s online resume. Now it's one of the most widely used server-side scripting languages.</p>
+        <p>Loose Typing Can Be Weird, PHP allows bizarre comparisons due to its loose type system.</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

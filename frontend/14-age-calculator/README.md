@@ -11,6 +11,6 @@
 
 <img src="./after.png">
 
-Age Calculator made using HTML, CSS JavaScript and NodeJS.
+Age Calculator made using HTML, CSS, JavaScript and NodeJS.
 
 Project URL: https://roadmap.sh/projects/age-calculator

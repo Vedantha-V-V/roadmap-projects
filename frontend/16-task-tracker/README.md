@@ -3,11 +3,11 @@
 
 ## Preview
 
-### Default
+### Adding Tasks
 
 <img src="./image1.png">
 
-### Selected
+### Completion
 
 <img src="./image2.png">
 

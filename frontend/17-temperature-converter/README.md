@@ -5,11 +5,11 @@
 
 ### Temperature Input
 
-<img src="./image1.png">
+<img src="./image-1.png">
 
 ### Final Result
 
-<img src="./image2.png">
+<img src="./image-2.png">
 
 Temperature Converter made using HTML, CSS and JavaScript.
 

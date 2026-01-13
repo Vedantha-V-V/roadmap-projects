@@ -26,19 +26,20 @@ match(action):
         task = args[len(args)-1]
         created_at = datetime.datetime.now().isoformat()
         updated_at = datetime.datetime.now().isoformat()
-        task_json[len(task_json)+1] = [task,"not done",created_at,updated_at]
+        task_json[len(task_json)+1] = [task,"not-done",created_at,updated_at]
     case 'delete':
-        print("Entered")
         if len(args) == 2 or not int(args[2]):
             print("Invalid delete parameters")
             exit(1)
         id = args[2]
-        print(task_json.values())
-        print(args[2])
         if args[2] not in task_json.keys():
             print("Task not found")
             exit(1)
         task_json.pop(id)
+        tasks = list(task_json.values())
+        task_json = {}
+        for i in range(1,len(tasks)+1):
+            task_json[i] = tasks[i-1]
     case 'update':
         if len(args) <= 3 or not int(args[2]):
             print("Invalid update parameters")
@@ -54,16 +55,28 @@ match(action):
             print("Invalid ID parameters")
             exit(1)
         id = args[2]
-        task_json[id][1] = 'mark-in-progress'
+        task_json[id][1] = 'in-progress'
     case 'mark-done':
         if len(args) == 2 or not int(args[2]):
             print("Invalid ID parameters")
             exit(1)
         id = args[2]
-        task_json[id][1] = 'mark-in-progress'
+        task_json[id][1] = 'done'
     case 'list':
-        for key,value in task_json.items():
-            print(value[0])
+        if len(args) == 2:
+            for key,value in task_json.items():
+                print(f"{value[0]}\t{value[1]}")
+        elif len(args) == 3:
+            type = args[len(args)-1]
+            if type in ['not-done','done','mark-in-progress']:
+                for key,value in task_json.items():
+                    if value[1].__eq__(type):
+                        print(f"{value[0]}\t{value[1]}")
+            else:
+                print("List type not found")
+                exit(1)
+        else:
+            print("Invalid argument length")
     case _:
         print("Not found")
 

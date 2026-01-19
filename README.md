@@ -25,7 +25,7 @@ This is a long-term journey where I will be:
 [x] changelog-component: https://roadmap.sh/projects/changelog-component <br>
 [x] testimonial-cards: https://roadmap.sh/projects/testimonial-cards <br>
 [x] datepicker-ui: https://roadmap.sh/projects/datepicker-ui <br>
-[x] accessible-fom-ui: https://roadmap.sh/projects/accessible-form-ui <br>
+- [x] accessible-fom-ui: https://roadmap.sh/projects/accessible-form-ui <br>
 [x] image-grid-layout: https://roadmap.sh/projects/image-grid <br>
 [x] tool-tip-ui: https://roadmap.sh/projects/tooltip-ui <br>
 [x] simple-tabs: https://roadmap.sh/projects/simple-tabs <br>

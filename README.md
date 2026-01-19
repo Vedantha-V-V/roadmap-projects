@@ -41,6 +41,7 @@ temperature-converter: https://roadmap.sh/projects/temperature-converter <br>
 ### BackEnd
 
 task-tracker: https://roadmap.sh/projects/task-tracker <br>
+github-user-activity: https://roadmap.sh/projects/github-user-activity <br>
 
 
 # Goals for This Journey

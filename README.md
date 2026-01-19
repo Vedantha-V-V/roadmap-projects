@@ -19,29 +19,29 @@ This is a long-term journey where I will be:
 
 ### FrontEnd
 
-single-page-cv: https://roadmap.sh/projects/single-page-cv <br>
-basic-html-website: https://roadmap.sh/projects/basic-html-website <br>
-personal-portfolio: https://roadmap.sh/projects/portfolio-website <br>
-changelog-component: https://roadmap.sh/projects/changelog-component <br>
-testimonial-cards: https://roadmap.sh/projects/testimonial-cards <br>
-datepicker-ui: https://roadmap.sh/projects/datepicker-ui <br>
-accessible-fom-ui: https://roadmap.sh/projects/accessible-form-ui <br>
-image-grid-layout: https://roadmap.sh/projects/image-grid <br>
-tool-tip-ui: https://roadmap.sh/projects/tooltip-ui <br>
-simple-tabs: https://roadmap.sh/projects/simple-tabs <br>
-cookie-consent: https://roadmap.sh/projects/cookie-consent <br>
-restricted-textarea: https://roadmap.sh/projects/restricted-textarea <br>
-accordion: https://roadmap.sh/projects/accordion <br>
-age-calculator: https://roadmap.sh/projects/age-calculator <br>
-custom-dropdown: https://roadmap.sh/projects/custom-dropdown <br>
-task-tracker: https://roadmap.sh/projects/task-tracker-js <br>
-temperature-converter: https://roadmap.sh/projects/temperature-converter <br>
+[x] single-page-cv: https://roadmap.sh/projects/single-page-cv <br>
+[x] basic-html-website: https://roadmap.sh/projects/basic-html-website <br>
+[x] personal-portfolio: https://roadmap.sh/projects/portfolio-website <br>
+[x] changelog-component: https://roadmap.sh/projects/changelog-component <br>
+[x] testimonial-cards: https://roadmap.sh/projects/testimonial-cards <br>
+[x] datepicker-ui: https://roadmap.sh/projects/datepicker-ui <br>
+[x] accessible-fom-ui: https://roadmap.sh/projects/accessible-form-ui <br>
+[x] image-grid-layout: https://roadmap.sh/projects/image-grid <br>
+[x] tool-tip-ui: https://roadmap.sh/projects/tooltip-ui <br>
+[x] simple-tabs: https://roadmap.sh/projects/simple-tabs <br>
+[x] cookie-consent: https://roadmap.sh/projects/cookie-consent <br>
+[x] restricted-textarea: https://roadmap.sh/projects/restricted-textarea <br>
+[x] accordion: https://roadmap.sh/projects/accordion <br>
+[x] age-calculator: https://roadmap.sh/projects/age-calculator <br>
+[x] custom-dropdown: https://roadmap.sh/projects/custom-dropdown <br>
+[x] task-tracker: https://roadmap.sh/projects/task-tracker-js <br>
+[x] temperature-converter: https://roadmap.sh/projects/temperature-converter <br>
 
 
 ### BackEnd
 
-task-tracker: https://roadmap.sh/projects/task-tracker <br>
-github-user-activity: https://roadmap.sh/projects/github-user-activity <br>
+[x] task-tracker: https://roadmap.sh/projects/task-tracker <br>
+[x] github-user-activity: https://roadmap.sh/projects/github-user-activity <br>
 
 
 # Goals for This Journey

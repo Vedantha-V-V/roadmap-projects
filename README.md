@@ -42,7 +42,7 @@ This is a long-term journey where I will be:
 
 - [x] task-tracker: https://roadmap.sh/projects/task-tracker <br>
 - [x] github-user-activity: https://roadmap.sh/projects/github-user-activity <br>
-
+- [x] expense-tracker: https://roadmap.sh/projects/expense-tracker <br>
 
 # Goals for This Journey
 

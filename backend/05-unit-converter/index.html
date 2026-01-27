@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=M+PLUS+Rounded+1c&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Unit Converter</h2>
+        <div class="selector">
+            <p class="highlight" id="length">Length</p>
+            <p id="weight">Weight</p>
+            <p id="temperature">Temperature</p>
+        </div>
+        <section id="length-section" class="active">
+            <label>Enter the length to convert</label>
+            <input type="number" id="ipvalue">
+            <label>Unit to convert from</label>
+            <input type="text" id="tounit">
+            <label>Unit to convert to</label>
+            <input type="text" id="fromunit">
+        </section>
+        <section id="weight-section" class="hidden">
+            <label>Enter the weight to convert</label>
+            <input type="number" id="ipvalue">
+            <label>Unit to convert from</label>
+            <input type="text" id="tounit">
+            <label>Unit to convert to</label>
+            <input type="text" id="fromunit">
+        </section>
+        <section id="temperature-section" class="hidden">
+            <label>Enter the temperature to convert</label>
+            <input type="number" id="ipvalue">
+            <label>Unit to convert from</label>
+            <input type="text" id="tounit">
+            <label>Unit to convert to</label>
+            <input type="text" id="fromunit">
+        </section>
+        <button id="convert-btn">Convert</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -44,6 +44,7 @@ This is a long-term journey where I will be:
 - [x] github-user-activity: https://roadmap.sh/projects/github-user-activity <br>
 - [x] expense-tracker: https://roadmap.sh/projects/expense-tracker <br>
 - [x] number-guessing-game: https://roadmap.sh/projects/number-guessing-game <br>
+- [x] unit-converter: https://roadmap.sh/projects/unit-converter <br>
 
 # Goals for This Journey
 

@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=M+PLUS+Rounded+1c&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -20,28 +23,35 @@
         <section id="length-section" class="active">
             <label>Enter the length to convert</label>
             <input type="number" id="ipvalue">
-            <label>Unit to convert from</label>
-            <input type="text" id="tounit">
-            <label>Unit to convert to</label>
+            <label>Unit to convert from </label>
             <input type="text" id="fromunit">
+            <label>Unit to convert to </label>
+            <input type="text" id="tounit">
+            <button id="len-convert-btn">Convert</button>
         </section>
         <section id="weight-section" class="hidden">
             <label>Enter the weight to convert</label>
             <input type="number" id="ipvalue">
-            <label>Unit to convert from</label>
-            <input type="text" id="tounit">
-            <label>Unit to convert to</label>
+            <label>Unit to convert from </label>
             <input type="text" id="fromunit">
+            <label>Unit to convert to </label>
+            <input type="text" id="tounit">
+            <button id="wt-convert-btn">Convert</button>
         </section>
         <section id="temperature-section" class="hidden">
             <label>Enter the temperature to convert</label>
             <input type="number" id="ipvalue">
-            <label>Unit to convert from</label>
-            <input type="text" id="tounit">
-            <label>Unit to convert to</label>
+            <label>Unit to convert from </label>
             <input type="text" id="fromunit">
+            <label>Unit to convert to </label>
+            <input type="text" id="tounit">
+            <button id="temp-convert-btn">Convert</button>
         </section>
-        <button id="convert-btn">Convert</button>
+        <section id="result-section" class="hidden">
+            <p>Result of your calculation</p>
+            <p id="res"></p>
+            <button id="reset-btn">Reset</button>
+        </section>
     </div>
     <script src="script.js"></script>
 </body>
